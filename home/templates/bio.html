@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}****** Iñaki Retegi{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+
+<style>
+    body{
+        background-color: ;
+    }
+</style>
+
+
+{% endblock %}
+
+
+
+{% block content %}
+<div>
+    <div class="row">
+        <div class="col-3"></div>
+
+        <div class="col-6">
+            <div class="row p-5">
+
+                <div class="col-3 mt-5" style="background-color:; height:500px;" src="">
+
+                    <div class="row">
+                        <div class="col-12 w-100">
+                            <img src="media/img/inaki_retegi_eus.jpg" class="img-fluid w-100" style="filter: grayscale(100%);">
+                        </div>
+                        <div class="col-12 p-5">
+                            <h1>Información General</h1>
+                            <ul>
+                                <li>Iñaki Retegi</li>
+                                Oiartzun, Gipuzkoa
+                                <li>info@retegi.eus</li>
+                                <li>+34 635726721</li>
+                                <li>www.retegi.eus</li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                </div>
+        
+                <div class="col-9 mt-5 p-5" style="background-color:; height:500px;" src="">
+                    <h3>Python & Django Developer</h3>
+                    <h1 style="font-size: 500%;" class="">Iñaki Retegi</h1>
+                    <br>
+                    <p>
+                        Aprender y descubrir nuevas tecnologías relacionadas con la programación y la robótica es una placer y un privilegio para mi, por eso todos los días dedico tiempo al aprendizaje. Comencé en el mundo web descubriendo Joomla y otros CMS y Ecommerce como: Wordpress, Drupal, WooCommerce o Prestashop. Con el tiempo descubrí, por su creatividad: el placer de la PROGRAMACIÓN, al igual que el piano y el jazz (otras de mis pasiones). Conocí PHP y SQL gracias a Ignacio Usabiaga (SEIM, Donostia). Creé los primeros proyectos en PHP. Descubrí PYTHON de la manos de Carlos Naucler (Ceinpro, Donosti). La ventana hacia los FRAMEWORK y el desarrollo profesional me lo abrió Carlos Ortega (Cebanc, Donosti): "Desarrollo con código límpio". El lenguaje con el que más cómodo trabajo es PYTHON por su limpieza y funcionalidad en ámbitos como WEBy Robótica, por eso tenía claro que quería dominar su Framework: DJANGO. Es con el que creo proyectos actualmente y quiero mejorar día a día. Este framework me permite crear proyectos con un código seguro, límpio, organizado y escalable. Por eso los proyectos que creo son 100% Django(Python), combinado con otras tecnologías como Javascript, SQL, HTML y CSS.
+                    </p></btr>
+        
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="col-3 mt-5 p-5" style="background-color:; height:500px;" src="">
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
+
+{% block outbody %}
+{% endblock %}
