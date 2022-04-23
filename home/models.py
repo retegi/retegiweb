@@ -25,7 +25,7 @@ class Post(models.Model):
     #text = models.TextField('Texto', max_length=12000, null=True, blank=True)
     text = RichTextField()
     image = models.ImageField('Image', null=True, blank=True, upload_to="img/")
-    label = models.ManyToManyField(Label, null=True, blank=True)
+    label = models.ManyToManyField(Label, blank=True)
     author = models.CharField('Autor', max_length=30, blank=True, null=True)
     readingTime = models.IntegerField('Tiempo lectura', blank=True, null=True)
 

@@ -96,7 +96,7 @@ DATABASES = {
 }
 
 #LOCAL BUENO
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': get_secret('DB_NAME'),
@@ -105,7 +105,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}"""
+}
 
 
 # Password validation
