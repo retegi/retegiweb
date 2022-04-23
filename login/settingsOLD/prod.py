@@ -38,7 +38,7 @@ SECRET_KEY = "get_secret('SECRET_KEY')"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','XX.XX.XX.XX']
+ALLOWED_HOSTS = ['locahost','188.166.103.42']
 
 
 # Application definition
