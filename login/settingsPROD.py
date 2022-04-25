@@ -147,7 +147,11 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+#STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    '/root/retegi/retegiweb/static/',
+]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
